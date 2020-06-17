@@ -14,5 +14,5 @@
     ./create-update-stack.sh
 ---
 ## Credits
-- [Lucid Chart](lucidchart.com)
-- [Udacity](udacity.com)
+- [Lucid Chart](https://app.lucidchart.com)
+- [Udacity](https://udacity.com)
