@@ -255,8 +255,8 @@ Resources:
       VpcId: !Ref VPC
       SecurityGroupIngress:
       - IpProtocol: tcp
-        FromPort: 8080
-        ToPort: 8080
+        FromPort: 80
+        ToPort: 80
         CidrIp: 0.0.0.0/0
       - IpProtocol: tcp
         FromPort: 22
