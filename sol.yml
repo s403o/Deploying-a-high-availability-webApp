@@ -282,7 +282,7 @@ Resources:
           aws s3 cp s3://s3-semo/udacity.zip .
           unzip -o udacity.zip
       ImageId: ami-003634241a8fcdec0
-      KeyName: s3-semo 
+      #KeyName: s3-semo 
       IamInstanceProfile: !Ref ProfileRolesForApp
       SecurityGroups:
         - Ref: WebServerSecGroup
